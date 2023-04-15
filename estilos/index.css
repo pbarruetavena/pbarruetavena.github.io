@@ -1,0 +1,20 @@
+
+/*  FONTES  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); /* quicksand - teste  - font-family: 'Quicksand', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap'); /* pt sans caption - font-family: 'PT Sans Caption', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); /* montserrat - font-family: 'Montserrat', sans-serif;*/
+
+:root {
+    --cor-fundo: #0d1117;
+    --cor-texto: #fdf4f4;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
