@@ -30,18 +30,32 @@
 
     <nav>
         <ul id="menu">
-            <li id="nav-inicio" class="item-selecionado">Inicio</li>
-            <li id="nav-perfil">Perfil</li>
-            <li id="nav-projetos">Projetos</li>
-            <li id="nav-contato">Contato</li>
+            <li id="nav-inicio" data-num="0" class="item-selecionado">Inicio</li>
+            <li id="nav-perfil" data-num="1">Perfil</li>
+            <li id="nav-projetos" data-num="2">Projetos</li>
+            <li id="nav-contato" data-num="3">Contato</li>
         </ul>
     </nav>
 
     <main>
-        <section id="container-inicio">
+        <section id="container-inicio" class="container-main container-selecionado">
+            <p>Lorem ipsum dolor sit inicio. Qui totam alias et recusandae harum sit consectetur pariatur et libero corporis. Aut debitis voluptatem sed maxime corporis non voluptatem accusantium aut fugiat unde aut quaerat magnam ea nihil sequi.</p>
+        </section>
 
+        <section id="container-perfil" class="container-main">
+            <p>Lorem ipsum dolor sit perfil. Qui totam alias et recusandae harum sit consectetur pariatur et libero corporis. Aut debitis voluptatem sed maxime corporis non voluptatem accusantium aut fugiat unde aut quaerat magnam ea nihil sequi.</p>
+        </section>
+
+        <section id="container-projetos" class="container-main">
+            <p>Lorem ipsum dolor sit projetos. Qui totam alias et recusandae harum sit consectetur pariatur et libero corporis. Aut debitis voluptatem sed maxime corporis non voluptatem accusantium aut fugiat unde aut quaerat magnam ea nihil sequi.</p>
+        </section>
+
+        <section id="container-contato" class="container-main">
+            <p>Lorem ipsum dolor sit contato. Qui totam alias et recusandae harum sit consectetur pariatur et libero corporis. Aut debitis voluptatem sed maxime corporis non voluptatem accusantium aut fugiat unde aut quaerat magnam ea nihil sequi.</p>
         </section>
     </main>
 
+    <script src="scripts/config.js"></script>
+    <script src="scripts/nav.js"></script>
 </body>
 </html>
