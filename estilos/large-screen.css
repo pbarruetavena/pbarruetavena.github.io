@@ -64,6 +64,12 @@ header {
     border-radius: 1em;
     padding: 6px 4px 6px 10px;
 }
+#seletor-idioma:hover {
+    cursor: pointer;
+}
+#seletor-idioma option:hover {
+    cursor: pointer;
+}
 #icone-idioma {
     font-size: 25px;
 }
@@ -83,4 +89,16 @@ nav #menu li {
 }
 #menu li:not(.item-selecionado):hover {
     cursor: pointer;
+}
+
+
+main {
+    margin-top: 5vh;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-main:not(.container-selecionado) {
+    display: none;
 }
